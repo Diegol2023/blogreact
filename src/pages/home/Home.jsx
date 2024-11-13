@@ -1,5 +1,3 @@
-import "./../App.css"
-
 const Home = () => {
     const styles = {
         titulo:{
@@ -8,8 +6,8 @@ const Home = () => {
     }
     return(
         <div>
-            <h1 className="h1dehome" sytle={styles.titulo}>Home</h1>
-            <h1 sytle={styles.titulo}>Home</h1>
+            <h1>Home</h1>
+           
         </div>
     )
 
